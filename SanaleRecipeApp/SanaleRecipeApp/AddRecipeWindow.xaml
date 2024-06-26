@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SanaleRecipeApp"
         mc:Ignorable="d"
-        Title="AddRecipeWindow" Height="450" Width="800">
+         Title="Add Recipe" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel Margin="10">
+            <TextBlock Text="Enter the recipe name:"/>
+            <TextBox Name="RecipeNameTextBox"/>
+
+            <TextBlock Text="Enter the number of ingredients:"/>
+            <TextBox Name="NumIngredientsTextBox"/>
+
+            <StackPanel Name="IngredientsPanel"/>
+
+            <TextBlock Text="Enter the number of steps:"/>
+            <TextBox Name="NumStepsTextBox"/>
+
+            <StackPanel Name="StepsPanel"/>
+
+            <Button Content="Save Recipe"/>
+        </StackPanel>
     </Grid>
 </Window>
