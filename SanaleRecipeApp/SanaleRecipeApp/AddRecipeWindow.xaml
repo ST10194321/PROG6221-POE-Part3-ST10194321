@@ -12,16 +12,16 @@
             <TextBox Name="RecipeNameTextBox"/>
 
             <TextBlock Text="Enter the number of ingredients:"/>
-            <TextBox Name="NumIngredientsTextBox"/>
+            <TextBox Name="NumIngredientsTextBox"  TextChanged="NumIngredientsTextBox_TextChanged"/>
 
             <StackPanel Name="IngredientsPanel"/>
 
             <TextBlock Text="Enter the number of steps:"/>
-            <TextBox Name="NumStepsTextBox"/>
+            <TextBox Name="NumStepsTextBox" TextChanged="NumStepsTextBox_TextChanged"/>
 
             <StackPanel Name="StepsPanel"/>
 
-            <Button Content="Save Recipe"/>
+            <Button Content="Save Recipe" Click="SaveRecipeButton_Click"/>
         </StackPanel>
     </Grid>
 </Window>
