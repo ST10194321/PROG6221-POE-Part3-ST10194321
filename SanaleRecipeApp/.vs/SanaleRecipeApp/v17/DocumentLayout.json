@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|c:\\users\\jose\\source\\repos\\sanalerecipeapp\\sanalerecipeapp\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|c:\\users\\jose\\source\\repos\\sanalerecipeapp\\sanalerecipeapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|c:\\users\\jose\\source\\repos\\sanalerecipeapp\\sanalerecipeapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\Recipe.cs",
+              "RelativeDocumentMoniker": "SanaleRecipeApp\\Recipe.cs",
+              "ToolTip": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\Recipe.cs",
+              "RelativeToolTip": "SanaleRecipeApp\\Recipe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:31:42.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SanaleRecipeApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\MainWindow.xaml",
+              "RelativeToolTip": "SanaleRecipeApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-26T17:29:15.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SanaleRecipeApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SanaleRecipeApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:29:14.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
