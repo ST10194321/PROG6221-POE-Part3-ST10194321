@@ -5,14 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SanaleRecipeApp"
         mc:Ignorable="d"
-        Title="Scale Recipe" Height="450" Width="800">
+         Title="Scale Recipe" Height="450" Width="800"  FontWeight="Bold"
+    >
+    <Window.Background>
+        <ImageBrush ImageSource="/Images/scale.png"/>
+    </Window.Background>
+
     <Grid>
         <StackPanel Margin="10">
-            <TextBlock Text="Select scale factor:"/>
-            <RadioButton Name="HalfScaleRadioButton" Content="0.5" GroupName="ScaleFactor"/>
-            <RadioButton Name="DoubleScaleRadioButton" Content="2" GroupName="ScaleFactor"/>
-            <RadioButton Name="TripleScaleRadioButton" Content="3" GroupName="ScaleFactor"/>
-            <Button Content="Scale Recipe" Click="ScaleRecipeButton_Click"/>
+            <TextBlock Text="Select scale factor:"  FontSize="20" FontFamily="Segoe UI"/>
+            <RadioButton Name="HalfScaleRadioButton" Content="0.5" GroupName="ScaleFactor" FontSize="15"/>
+            <RadioButton Name="DoubleScaleRadioButton" Content="2" GroupName="ScaleFactor" FontSize="15"/>
+            <RadioButton Name="TripleScaleRadioButton" Content="3" GroupName="ScaleFactor" FontSize="15"/>
+            <Button Content="Scale Recipe" Click="ScaleRecipeButton_Click" Style="{StaticResource RoundedButtonStyle}"/>
         </StackPanel>
     </Grid>
 </Window>

@@ -5,23 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SanaleRecipeApp"
         mc:Ignorable="d"
-         Title="Add Recipe" Height="450" Width="800">
+            Title="Add Recipe" Height="450" Width="800"
+    Background="#EAEBE6"
+    FontWeight="Black">
     <Grid>
         <StackPanel Margin="10">
             <TextBlock Text="Enter the recipe name:"/>
-            <TextBox Name="RecipeNameTextBox"/>
+            <TextBox Name="RecipeNameTextBox" Style="{StaticResource RoundedTextBoxStyle}"/>
 
             <TextBlock Text="Enter the number of ingredients:"/>
-            <TextBox Name="NumIngredientsTextBox"  TextChanged="NumIngredientsTextBox_TextChanged"/>
+            <TextBox Name="NumIngredientsTextBox" TextChanged="NumIngredientsTextBox_TextChanged" Style="{StaticResource RoundedTextBoxStyle}"/>
 
             <StackPanel Name="IngredientsPanel"/>
 
             <TextBlock Text="Enter the number of steps:"/>
-            <TextBox Name="NumStepsTextBox" TextChanged="NumStepsTextBox_TextChanged"/>
+            <TextBox Name="NumStepsTextBox" TextChanged="NumStepsTextBox_TextChanged" Style="{StaticResource RoundedTextBoxStyle}"/>
 
             <StackPanel Name="StepsPanel"/>
 
-            <Button Content="Save Recipe" Click="SaveRecipeButton_Click"/>
+            <Button Content="Save Recipe" Click="SaveRecipeButton_Click" Style="{StaticResource RoundedButtonStyle}" />
         </StackPanel>
     </Grid>
 </Window>

@@ -117,5 +117,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\B46229.png" />
+    <Resource Include="Images\Gray and Blue Retro Cookie Shop Logo %281%29.png" />
+    <Resource Include="Images\scale.png" />
+    <Resource Include="Images\Untitled design %285%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
