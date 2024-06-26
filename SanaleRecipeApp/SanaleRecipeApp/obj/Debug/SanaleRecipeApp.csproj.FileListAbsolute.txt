@@ -19,3 +19,4 @@ C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\ScaleRecipe
 C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\AddRecipeWindow.baml
 C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\DisplayRecipeWindow.baml
 C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\ScaleRecipeWindow.baml
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\App.baml
