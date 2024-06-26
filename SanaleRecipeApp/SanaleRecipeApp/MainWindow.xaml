@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <TextBlock Text="Welcome to the Recipe App" FontSize="16" HorizontalAlignment="Center"/>
+          
+            <ListBox Name="RecipeListBox" Margin="10" Height="200"/>
+            <Button Name="AddRecipeButton" Content="Add New Recipe" Click="AddRecipeButton_Click" Margin="5"/>
+            <Button Name="DisplayRecipeButton" Content="Display Recipe" Click="DisplayRecipeButton_Click" Margin="5"/>
+            <Button Name="ScaleRecipeButton" Content="Scale Recipe" Click="ScaleRecipeButton_Click" Margin="5"/>
+            <Button Name="ResetRecipeButton" Content="Reset Recipe" Click="ResetRecipeButton_Click" Margin="5"/>
+            <Button Name="ClearAllRecipesButton" Content="Clear All Recipes" Click="ClearAllRecipesButton_Click" Margin="5"/>
+            <Button Name="ExitAppButton" Content="Exit App" Click="ExitAppButton_Click" Margin="5"/>
+        </StackPanel>
     </Grid>
 </Window>
