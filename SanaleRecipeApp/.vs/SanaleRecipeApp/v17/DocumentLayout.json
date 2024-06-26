@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\sanalerecipeapp\\displayrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\sanalerecipeapp\\displayrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\displayrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|c:\\users\\jose\\source\\repos\\sanalerecipeapp\\sanalerecipeapp\\displayrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\displayrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -15,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\addrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|c:\\users\\jose\\source\\repos\\sanalerecipeapp\\sanalerecipeapp\\addrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\sanalerecipeapp\\addrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\addrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\scalerecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\sanalerecipeapp\\displayrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\displayrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\sanalerecipeapp\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53925FFB-BECC-4FF7-8590-826B67D5F730}|SanaleRecipeApp\\SanaleRecipeApp.csproj|solutionrelative:sanalerecipeapp\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ScaleRecipeWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\ScaleRecipeWindow.xaml.cs",
               "RelativeDocumentMoniker": "SanaleRecipeApp\\ScaleRecipeWindow.xaml.cs",
@@ -78,19 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "DisplayRecipeWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\DisplayRecipeWindow.xaml.cs",
               "RelativeDocumentMoniker": "SanaleRecipeApp\\DisplayRecipeWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\DisplayRecipeWindow.xaml.cs",
               "RelativeToolTip": "SanaleRecipeApp\\DisplayRecipeWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T20:01:30.838Z"
+              "WhenOpened": "2024-06-26T20:01:30.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddRecipeWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\AddRecipeWindow.xaml.cs",
               "RelativeDocumentMoniker": "SanaleRecipeApp\\AddRecipeWindow.xaml.cs",
@@ -98,24 +99,22 @@
               "RelativeToolTip": "SanaleRecipeApp\\AddRecipeWindow.xaml.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAowEQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T19:58:56.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T19:58:56.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ScaleRecipeWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\ScaleRecipeWindow.xaml",
               "RelativeDocumentMoniker": "SanaleRecipeApp\\ScaleRecipeWindow.xaml",
               "ToolTip": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\ScaleRecipeWindow.xaml",
               "RelativeToolTip": "SanaleRecipeApp\\ScaleRecipeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-26T19:58:08.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T19:58:08.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DisplayRecipeWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\DisplayRecipeWindow.xaml",
               "RelativeDocumentMoniker": "SanaleRecipeApp\\DisplayRecipeWindow.xaml",
@@ -127,15 +126,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddRecipeWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\AddRecipeWindow.xaml",
               "RelativeDocumentMoniker": "SanaleRecipeApp\\AddRecipeWindow.xaml",
               "ToolTip": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\AddRecipeWindow.xaml",
               "RelativeToolTip": "SanaleRecipeApp\\AddRecipeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-26T19:57:16.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T19:57:16.759Z"
             },
             {
               "$type": "Document",
@@ -151,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RecipeMethods.cs",
               "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\RecipeMethods.cs",
               "RelativeDocumentMoniker": "SanaleRecipeApp\\RecipeMethods.cs",
@@ -159,12 +157,11 @@
               "RelativeToolTip": "SanaleRecipeApp\\RecipeMethods.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAxwCgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T17:55:53.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T17:55:53.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "SanaleRecipeApp\\App.xaml.cs",
@@ -176,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Jose\\source\\repos\\SanaleRecipeApp\\SanaleRecipeApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SanaleRecipeApp\\MainWindow.xaml.cs",

@@ -22,7 +22,15 @@ namespace SanaleRecipeApp
         public DisplayRecipeWindow(Recipe recipe)
         {
             InitializeComponent();
-           
+            DisplayRecipe(recipe);
+        }
+
+        private void DisplayRecipe(Recipe recipe)
+        {
+            RecipeNameTextBlock.Text = recipe.Name;
+            IngredientsItemsControl.ItemsSource = recipe.Ingredients.Select(ingredient => $"{ingredient.Quantity} {ingredient.Unit} {ingredient.Name} ({ingredient.Calories} calories, {ingredient.FoodGroup})");
+            StepsItemsControl.ItemsSource = recipe.Steps.Select((step, index) => $"{index + 1}. {step}");
+            TotalCaloriesTextBlock.Text = $"Total calories: {recipe.Ingredients.Sum(ingredient => ingredient.Calories)}";
         }
     }
 }
