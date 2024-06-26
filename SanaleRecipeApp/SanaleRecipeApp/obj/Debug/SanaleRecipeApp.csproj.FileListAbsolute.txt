@@ -1,0 +1,15 @@
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\bin\Debug\SanaleRecipeApp.exe.config
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\bin\Debug\SanaleRecipeApp.exe
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\bin\Debug\SanaleRecipeApp.pdb
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.csproj.AssemblyReference.cache
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\MainWindow.g.cs
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\App.g.cs
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp_MarkupCompile.cache
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp_MarkupCompile.lref
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\MainWindow.baml
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.g.resources
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.Properties.Resources.resources
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.csproj.GenerateResource.cache
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.csproj.CoreCompileInputs.cache
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.exe
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.pdb
