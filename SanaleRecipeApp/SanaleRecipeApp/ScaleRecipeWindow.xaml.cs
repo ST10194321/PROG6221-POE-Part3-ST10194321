@@ -28,5 +28,26 @@ namespace SanaleRecipeApp
             this.recipeMethods = recipeMethods;
             this.recipe = recipe;
         }
+
+        private void ScaleRecipeButton_Click(object sender, RoutedEventArgs e)
+        {
+            double scaleFactor = 1;
+            if (HalfScaleRadioButton.IsChecked == true)
+            {
+                scaleFactor = 0.5;
+            }
+            else if (DoubleScaleRadioButton.IsChecked == true)
+            {
+                scaleFactor = 2;
+            }
+            else if (TripleScaleRadioButton.IsChecked == true)
+            {
+                scaleFactor = 3;
+            }
+
+            recipeMethods.ScaleRecipe(recipe.Name, scaleFactor);
+            MessageBox.Show("Recipe has been scaled.");
+            this.Close();
+        }
     }
 }

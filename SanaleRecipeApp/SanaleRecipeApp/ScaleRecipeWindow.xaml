@@ -12,7 +12,7 @@
             <RadioButton Name="HalfScaleRadioButton" Content="0.5" GroupName="ScaleFactor"/>
             <RadioButton Name="DoubleScaleRadioButton" Content="2" GroupName="ScaleFactor"/>
             <RadioButton Name="TripleScaleRadioButton" Content="3" GroupName="ScaleFactor"/>
-            <Button Content="Scale Recipe"/>
+            <Button Content="Scale Recipe" Click="ScaleRecipeButton_Click"/>
         </StackPanel>
     </Grid>
 </Window>
