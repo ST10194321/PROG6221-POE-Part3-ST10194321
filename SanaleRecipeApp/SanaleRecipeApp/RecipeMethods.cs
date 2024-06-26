@@ -78,5 +78,14 @@ namespace SanaleRecipeApp
         {
             return recipe.Ingredients.Sum(ingredient => ingredient.Calories);
         }
+
+        public IEnumerable<Recipe> FilterRecipes(string ingredient, string foodGroup, int? maxCalories)
+        {
+            return recipes.Where(r =>
+                (string.IsNullOrEmpty(ingredient) || r.Ingredients.Any(i => i.Name.ToLower().Contains(ingredient))) &&
+                (foodGroup == "All" || string.IsNullOrEmpty(foodGroup) || r.Ingredients.Any(i => i.FoodGroup == foodGroup)) &&
+                (!maxCalories.HasValue || CalculateTotalCalories(r) <= maxCalories.Value)
+            );
+        }
     }
 }

@@ -26,6 +26,13 @@ namespace SanaleRecipeApp
         {
             InitializeComponent();
             recipeMethods.CalorieExceeded += NotifyCalorieExceeded;
+
+            // Initialize FoodGroupComboBox
+            var foodGroups = recipeMethods.FoodGroups.Prepend("All").ToList();
+            FoodGroupComboBox.ItemsSource = foodGroups;
+            FoodGroupComboBox.SelectedIndex = 0; // Default to "All"
+
+            UpdateRecipeList();
         }
 
         private void NotifyCalorieExceeded(string recipeName)
@@ -101,12 +108,36 @@ namespace SanaleRecipeApp
 
         private void ExitAppButton_Click(object sender, RoutedEventArgs e)
         {
-            Environment.Exit(0);
+            Application.Current.Shutdown();
         }
 
         private void UpdateRecipeList()
         {
             RecipeListBox.ItemsSource = recipeMethods.GetRecipeNames();
+        }
+
+        private void FilterButton_Click(object sender, RoutedEventArgs e)
+        {
+            var ingredient = IngredientTextBox.Text.ToLower();
+            var foodGroup = FoodGroupComboBox.SelectedItem?.ToString();
+            var maxCaloriesText = MaxCaloriesTextBox.Text;
+
+            int? maxCalories = null;
+            if (int.TryParse(maxCaloriesText, out int calories))
+            {
+                maxCalories = calories;
+            }
+
+            var filteredRecipes = recipeMethods.FilterRecipes(ingredient, foodGroup, maxCalories);
+            RecipeListBox.ItemsSource = filteredRecipes.Select(r => r.Name).ToList();
+        }
+
+        private void ClearFilterButton_Click(object sender, RoutedEventArgs e)
+        {
+            IngredientTextBox.Text = string.Empty;
+            FoodGroupComboBox.SelectedIndex = 0;
+            MaxCaloriesTextBox.Text = string.Empty;
+            UpdateRecipeList();
         }
     }
 }

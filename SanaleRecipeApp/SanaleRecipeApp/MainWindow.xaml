@@ -5,11 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SanaleRecipeApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Recipe App" Height="600" Width="800">
+  
     <Grid>
         <StackPanel>
             <TextBlock Text="Welcome to the Recipe App" FontSize="16" HorizontalAlignment="Center"/>
-          
+            <TextBlock Text="Filter Recipes:" FontWeight="Bold" Margin="10,10,0,0"/>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Ingredient:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <TextBox Name="IngredientTextBox" Width="100" Margin="0,0,10,0"/>
+                <TextBlock Text="Food Group:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <ComboBox Name="FoodGroupComboBox" Width="150" Margin="0,0,10,0"/>
+                <TextBlock Text="Max Calories:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <TextBox Name="MaxCaloriesTextBox" Width="100"/>
+                <Button Content="Filter" Click="FilterButton_Click" Margin="10,0,0,0"/>
+                <Button Content="Clear Filter" Click="ClearFilterButton_Click" Margin="10,0,0,0"/>
+            </StackPanel>
+
             <ListBox Name="RecipeListBox" Margin="10" Height="200"/>
             <Button Name="AddRecipeButton" Content="Add New Recipe" Click="AddRecipeButton_Click" Margin="5"/>
             <Button Name="DisplayRecipeButton" Content="Display Recipe" Click="DisplayRecipeButton_Click" Margin="5"/>
