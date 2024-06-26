@@ -13,3 +13,9 @@ C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecip
 C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.csproj.CoreCompileInputs.cache
 C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.exe
 C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\SanaleRecipeApp.pdb
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\AddRecipeWindow.g.cs
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\DisplayRecipeWindow.g.cs
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\ScaleRecipeWindow.g.cs
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\AddRecipeWindow.baml
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\DisplayRecipeWindow.baml
+C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\obj\Debug\ScaleRecipeWindow.baml

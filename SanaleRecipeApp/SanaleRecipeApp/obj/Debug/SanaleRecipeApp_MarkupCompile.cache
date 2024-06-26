@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Jose\source\repos\SanaleRecipeApp\SanaleRecipeApp\App.xaml
-1219584333
+4565694260
 
-7-1688221357
+10-1610670620
 13-1310406943
-MainWindow.xaml;
+AddRecipeWindow.xaml;DisplayRecipeWindow.xaml;MainWindow.xaml;ScaleRecipeWindow.xaml;
 
 False
 
