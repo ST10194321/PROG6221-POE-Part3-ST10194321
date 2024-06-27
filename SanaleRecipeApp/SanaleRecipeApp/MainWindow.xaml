@@ -7,35 +7,57 @@
         mc:Ignorable="d"
            Title="Recipe App" Height="600" Width="800" FontWeight="Bold"
   >
+     <!-- code to implement a picture as a background -->
     <Window.Background>
         <ImageBrush ImageSource="/Images/Untitled design (5).png" />
     </Window.Background>
     <Grid>
         <StackPanel>
+            <!-- code to add a picture-->
             <Image Source="/Images/Gray and Blue Retro Cookie Shop Logo (1).png"
 
                Width="772" 
                Height="70" 
                />
+            <!-- //Author:Eranga
+                 //Availability: https://erangatennakoon.wordpress.com/2012/03/28/rounded-buttons-in-wpf-a-template/
+                 //Date Accessed: 25 June 2024
+                                   -->
 
             <TextBlock Text="Filter Recipes:" FontWeight="Bold" Margin="10,10,0,0"/>
+            <!-- stack panel to group filter input fields horizontally -->
             <StackPanel Orientation="Horizontal" Margin="10">
                 <TextBlock Text="Ingredient:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <!-- textbox with style to round corners and colour-->
                 <TextBox Name="IngredientTextBox" Width="100" Margin="0,0,10,0" Style="{StaticResource RoundedTextBoxStyle}"/>
                 <TextBlock Text="Food Group:" VerticalAlignment="Center" Margin="0,0,5,0"/>
                 <ComboBox Name="FoodGroupComboBox" Width="150" Margin="0,0,10,0"/>
                 <TextBlock Text="Max Calories:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <!-- textbox with style to round corners and colour-->
                 <TextBox Name="MaxCaloriesTextBox" Width="100" Style="{StaticResource RoundedTextBoxStyle}"/>
+                <!-- button with style to round corners and colour-->
                 <Button Content="Filter" Click="FilterButton_Click" Margin="10,0,0,0" Style="{StaticResource RoundedButtonStyle}" Width="60" Height="30"/>
+                <!-- button with style to round corners and colour-->
                 <Button Content="Clear Filter" Click="ClearFilterButton_Click" Margin="10,0,0,0" Style="{StaticResource RoundedButtonStyle}" Width="90" Height="30"/>
             </StackPanel>
 
+            <!-- //Author:Eranga
+                //Availability: https://erangatennakoon.wordpress.com/2012/03/28/rounded-buttons-in-wpf-a-template/
+                //Date Accessed: 25 June 2024
+                                   -->
+            <!-- list box with style to round corners and colour-->
             <ListBox Name="RecipeListBox" Margin="10" Height="200" Style="{StaticResource RoundedListBoxStyle}" FontSize="20"/>
+            <!-- button with style to round corners and colour-->
             <Button Name="AddRecipeButton" Content="Add New Recipe" Click="AddRecipeButton_Click" Margin="5" Style="{StaticResource RoundedButtonStyle}" Width="300"/>
+            <!-- button with style to round corners and colour-->
             <Button Name="DisplayRecipeButton" Content="Display Recipe" Click="DisplayRecipeButton_Click" Margin="5" Style="{StaticResource RoundedButtonStyle}"  Width="300"/>
+            <!-- button with style to round corners and colour-->
             <Button Name="ScaleRecipeButton" Content="Scale Recipe" Click="ScaleRecipeButton_Click" Margin="5" Style="{StaticResource RoundedButtonStyle}"  Width="300"/>
+            <!-- button with style to round corners and colour-->
             <Button Name="ResetRecipeButton" Content="Reset Recipe" Click="ResetRecipeButton_Click" Margin="5" Style="{StaticResource RoundedButtonStyle}"  Width="300"/>
+            <!-- button with style to round corners and colour-->
             <Button Name="ClearAllRecipesButton" Content="Clear All Recipes" Click="ClearAllRecipesButton_Click" Margin="5" Style="{StaticResource RoundedButtonStyle}"  Width="300"/>
+            <!-- button with style to round corners and colour-->
             <Button Name="ExitAppButton" Content="Exit App" Click="ExitAppButton_Click" Margin="5" Style="{StaticResource RoundedButtonStyle}" Background="#B46229"  Width="300"/>
         </StackPanel>
     </Grid>

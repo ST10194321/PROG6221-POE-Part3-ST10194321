@@ -22,13 +22,20 @@ namespace SanaleRecipeApp
         private RecipeMethods recipeMethods;
         private Recipe recipe;
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
         public ScaleRecipeWindow(RecipeMethods recipeMethods, Recipe recipe)
         {
             InitializeComponent();
             this.recipeMethods = recipeMethods;
             this.recipe = recipe;
         }
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
 
+        // event handler for scaling button
         private void ScaleRecipeButton_Click(object sender, RoutedEventArgs e)
         {
             double scaleFactor = 1;
@@ -44,7 +51,10 @@ namespace SanaleRecipeApp
             {
                 scaleFactor = 3;
             }
-
+            //Author:Troelsen, A. & Japikse, P.
+            //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+            //Date Accessed: 25 June 2024
+            // displays message 
             recipeMethods.ScaleRecipe(recipe.Name, scaleFactor);
             MessageBox.Show("Recipe has been scaled.");
             this.Close();

@@ -3,7 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <!-- Define the rounded button style -->
+
+        <!-- //Author:Eranga
+             //Availability: https://erangatennakoon.wordpress.com/2012/03/28/rounded-buttons-in-wpf-a-template/
+             //Date Accessed: 25 June 2024
+                                           -->
+        <!-- code to style buttons-->
         <Style x:Key="RoundedButtonStyle" TargetType="Button">
             <Setter Property="Background" Value="#D19266"/>
             <Setter Property="Foreground" Value="White"/>
@@ -27,7 +32,11 @@
             </Setter>
         </Style>
 
-        <!-- Define the rounded text box style -->
+        <!-- //Author:Stack Overflow
+     //Availability: https://stackoverflow.com/questions/4779777/wpf-rounded-corner-textbox 
+     //Date Accessed: 25 June 2024
+                                   -->
+        <!-- code to style text box-->
         <Style x:Key="RoundedTextBoxStyle" TargetType="TextBox">
             <Setter Property="Background" Value="White"/>
             <Setter Property="BorderBrush" Value="#B46229"/>
@@ -47,7 +56,12 @@
             </Setter>
         </Style>
 
-        <!-- Define the rounded list box style -->
+        <!-- //Author:Stack Overflow
+//Availability: https://stackoverflow.com/questions/4779777/wpf-rounded-corner-textbox 
+//Date Accessed: 25 June 2024
+                              -->
+
+        <!-- code to style list box-->
         <Style x:Key="RoundedListBoxStyle" TargetType="ListBox">
             <Setter Property="Background" Value="White"/>
             <Setter Property="BorderBrush" Value="DarkGray"/>
@@ -71,3 +85,12 @@
     </Application.Resources>
 </Application>
 
+<!-- //Author:Microsoft
+     //Availability: https://learn.microsoft.com/en-us/windows/apps/design/style/xaml-theme-resources
+     //Date Accessed: 25 June 2024
+                                   -->
+<!-- //Author:Troelsen, A. & Japikse, P.
+     //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+     //Date Accessed: 25 June 2024
+                                   -->
+    

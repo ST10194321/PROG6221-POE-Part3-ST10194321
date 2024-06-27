@@ -24,13 +24,24 @@ namespace SanaleRecipeApp
             InitializeComponent();
             DisplayRecipe(recipe);
         }
-
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // event handler for displaying  recipe details
         private void DisplayRecipe(Recipe recipe)
         {
             RecipeNameTextBlock.Text = recipe.Name;
             IngredientsItemsControl.ItemsSource = recipe.Ingredients.Select(ingredient => $"{ingredient.Quantity} {ingredient.Unit} {ingredient.Name} ({ingredient.Calories} calories, {ingredient.FoodGroup})");
             StepsItemsControl.ItemsSource = recipe.Steps.Select((step, index) => $"{index + 1}. {step}");
             TotalCaloriesTextBlock.Text = $"Total calories: {recipe.Ingredients.Sum(ingredient => ingredient.Calories)}";
+        }
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // event handler to closeButton when clicked
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

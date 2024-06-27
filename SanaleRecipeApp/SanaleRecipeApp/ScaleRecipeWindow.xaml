@@ -7,6 +7,7 @@
         mc:Ignorable="d"
          Title="Scale Recipe" Height="450" Width="800"  FontWeight="Bold"
     >
+    <!-- code to implement a picture as a background -->
     <Window.Background>
         <ImageBrush ImageSource="/Images/scale.png"/>
     </Window.Background>
@@ -14,9 +15,15 @@
     <Grid>
         <StackPanel Margin="10">
             <TextBlock Text="Select scale factor:"  FontSize="20" FontFamily="Segoe UI"/>
+            <!-- radio buttons to select scaling factor-->
             <RadioButton Name="HalfScaleRadioButton" Content="0.5" GroupName="ScaleFactor" FontSize="15"/>
             <RadioButton Name="DoubleScaleRadioButton" Content="2" GroupName="ScaleFactor" FontSize="15"/>
             <RadioButton Name="TripleScaleRadioButton" Content="3" GroupName="ScaleFactor" FontSize="15"/>
+            <!-- //Author:Eranga
+     //Availability: https://erangatennakoon.wordpress.com/2012/03/28/rounded-buttons-in-wpf-a-template/
+     //Date Accessed: 25 June 2024
+           -->
+            <!-- button with style to round corners and colour-->
             <Button Content="Scale Recipe" Click="ScaleRecipeButton_Click" Style="{StaticResource RoundedButtonStyle}"/>
         </StackPanel>
     </Grid>

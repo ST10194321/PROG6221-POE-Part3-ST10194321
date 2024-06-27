@@ -6,19 +6,50 @@
         xmlns:local="clr-namespace:SanaleRecipeApp"
         mc:Ignorable="d"
           Title="Display Recipe" Height="450" Width="800">
-
+    <!-- code to implement a picture as a background -->
     <Window.Background>
         <ImageBrush ImageSource="/Images/B46229.png"/>
     </Window.Background>
 
+    <!-- //Author:Troelsen, A. & Japikse, P.
+     //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+     //Date Accessed: 25 June 2024
+                                   -->
     <Grid>
         <StackPanel Margin="10">
+            <!-- //Author:Stack Overflow
+                //Availability: https://stackoverflow.com/questions/4779777/wpf-rounded-corner-textbox 
+               //Date Accessed: 25 June 2024
+                              -->
             <TextBlock Name="RecipeNameTextBlock" FontWeight="Bold" FontSize="30" HorizontalAlignment="Center"/>
             <TextBlock Text="Ingredients:" FontWeight="Bold"  FontSize="20"/>
+            <!-- displays the ingredients-->
             <ItemsControl Name="IngredientsItemsControl" FontSize="16"/>
             <TextBlock Text="Steps:" FontWeight="Bold" FontSize="20"/>
-            <ItemsControl Name="StepsItemsControl" FontSize="16"/>
+            <!-- //Author:Microsoft
+//Availability: https://learn.microsoft.com/en-us/windows/apps/design/style/xaml-styles
+//Date Accessed: 25 June 2024
+                              -->
+            <!-- displays the steps-->
+            <ItemsControl Name="StepsItemsControl" FontSize="16">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <!-- checkbox for each step -->
+                            <CheckBox VerticalAlignment="Center" Margin="5,0,0,0"/>
+                            <TextBlock Text="{Binding}" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <!-- displays the total calories-->
             <TextBlock Name="TotalCaloriesTextBlock" FontWeight="Bold" FontSize="20"/>
+            <!-- //Author:Eranga
+     //Availability: https://erangatennakoon.wordpress.com/2012/03/28/rounded-buttons-in-wpf-a-template/
+     //Date Accessed: 25 June 2024
+           -->
+            <!-- button with style to round corners and colour-->
+            <Button Content="Close" Click="CloseButton_Click" Margin="10,0,0,0" HorizontalAlignment="Center" Width="100" Height="30" Style="{StaticResource RoundedButtonStyle}"/>
         </StackPanel>
     </Grid>
 </Window>

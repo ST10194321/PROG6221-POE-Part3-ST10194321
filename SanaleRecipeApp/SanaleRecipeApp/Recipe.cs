@@ -8,12 +8,14 @@ namespace SanaleRecipeApp
 {
     public class Recipe
     {
+        //array lists converted to generic collections 
         public string Name { get; set; }
         public List<Ingredient> Ingredients { get; set; } = new List<Ingredient>();
         public List<string> Steps { get; set; } = new List<string>();
     }
     public class Ingredient
     {
+        //declaration of variables
         public string Name { get; set; }
         public double Quantity { get; set; }
         public string Unit { get; set; }

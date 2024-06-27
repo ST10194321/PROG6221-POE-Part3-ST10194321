@@ -22,24 +22,35 @@ namespace SanaleRecipeApp
     {
         private RecipeMethods recipeMethods = new RecipeMethods();
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
         public MainWindow()
         {
             InitializeComponent();
             recipeMethods.CalorieExceeded += NotifyCalorieExceeded;
 
-            // Initialize FoodGroupComboBox
+            // gets food groups set all as defult and set as the item source for the ComboBox
             var foodGroups = recipeMethods.FoodGroups.Prepend("All").ToList();
             FoodGroupComboBox.ItemsSource = foodGroups;
-            FoodGroupComboBox.SelectedIndex = 0; // Default to "All"
-
+            FoodGroupComboBox.SelectedIndex = 0;
+            // updates the list of recipes displayed
             UpdateRecipeList();
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // event handler for CalorieExceeded event
         private void NotifyCalorieExceeded(string recipeName)
         {
             MessageBox.Show($"Warning: The total calories of {recipeName} exceed 300!", "Calorie Notification", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // event handler for AddRecipeButton click
         private void AddRecipeButton_Click(object sender, RoutedEventArgs e)
         {
             var addRecipeWindow = new AddRecipeWindow(recipeMethods);
@@ -47,6 +58,10 @@ namespace SanaleRecipeApp
             UpdateRecipeList();
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // event handler for DisplayRecipeButton click
         private void DisplayRecipeButton_Click(object sender, RoutedEventArgs e)
         {
             if (RecipeListBox.SelectedItem != null)
@@ -65,6 +80,10 @@ namespace SanaleRecipeApp
             }
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // event handler for ScaleRecipeButton click
         private void ScaleRecipeButton_Click(object sender, RoutedEventArgs e)
         {
             if (RecipeListBox.SelectedItem != null)
@@ -83,6 +102,10 @@ namespace SanaleRecipeApp
             }
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // event handler for ResetRecipeButton click
         private void ResetRecipeButton_Click(object sender, RoutedEventArgs e)
         {
             if (RecipeListBox.SelectedItem != null)
@@ -97,6 +120,10 @@ namespace SanaleRecipeApp
             }
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // event handler for ClearAllRecipesButton click
         private void ClearAllRecipesButton_Click(object sender, RoutedEventArgs e)
         {
             if (MessageBox.Show("Are you sure you want to clear all recipes?", "Confirm", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
@@ -106,16 +133,31 @@ namespace SanaleRecipeApp
             }
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // event handler for ExitAppButton click
         private void ExitAppButton_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        // method to update the list of recipes displayed in the ListBox
         private void UpdateRecipeList()
         {
             RecipeListBox.ItemsSource = recipeMethods.GetRecipeNames();
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        //Author:Microsoft
+        //Availability:https://learn.microsoft.com/en-us/dotnet/desktop/wpf/data/how-to-filter-data-in-a-view?view=netframeworkdesktop-4.8
+        //Date Accessed: 26 June 2024
+        // event handler for FilterButton click
         private void FilterButton_Click(object sender, RoutedEventArgs e)
         {
             var ingredient = IngredientTextBox.Text.ToLower();
@@ -132,6 +174,13 @@ namespace SanaleRecipeApp
             RecipeListBox.ItemsSource = filteredRecipes.Select(r => r.Name).ToList();
         }
 
+        //Author:Troelsen, A. & Japikse, P.
+        //Availability:Pro C# 10 with .NET 6: Foundational Principles and Practices in Programming. 11 ed.
+        //Date Accessed: 25 June 2024
+        //Author:Microsoft
+        //Availability:https://learn.microsoft.com/en-us/dotnet/desktop/wpf/data/how-to-filter-data-in-a-view?view=netframeworkdesktop-4.8
+        //Date Accessed: 26 June 2024
+        // event handler for ClearFilterButton click
         private void ClearFilterButton_Click(object sender, RoutedEventArgs e)
         {
             IngredientTextBox.Text = string.Empty;
