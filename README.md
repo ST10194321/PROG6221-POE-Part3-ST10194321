@@ -4,10 +4,11 @@ This WPF application allows users to manage recipes by adding, displaying, scali
 
 ## Installation Instructions
 
-1. Install the latest version of Visual Studio or Visual Studio Code.
+1. Install the latest version of [Visual Studio Code](https://code.visualstudio.com/) or [Visual Studio](https://visualstudio.microsoft.com/).
 2. Ensure you have the following packages installed:
    - .NET Core
    - WPF
+     Follow this [guide](https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2022) if lost with installation.
 3. Download the zipped file named `SanaleRecipeApp` from the GitHub repository and unzip it on your computer.
 4. Open Visual Studio and select “Open a local project”. Select the `.sln` file to open the application.
 
